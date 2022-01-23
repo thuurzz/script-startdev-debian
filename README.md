@@ -1,4 +1,4 @@
-## Script de pós instalação para desenvolvimento em Debian 
+## Script de pós instalação para desenvolvimento distros baseadas em Debian 
 
 Script pode ser rodado ou seguir o passo a passo para instação
 
