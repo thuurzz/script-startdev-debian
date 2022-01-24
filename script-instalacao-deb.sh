@@ -31,8 +31,8 @@ sudo nano /usr/share/applications/STS.desktop
 [Desktop Entry]
 Name=SpringSource Tool Suite
 Comment=Spring Tool Suite
-Exec=/opt/sts-4.7.0.RELEASE/SpringToolSuite4
-Icon=/opt/sts-4.7.0.RELEASE/icon.xpm
+Exec=/opt/sts-4.13.0.RELEASE/SpringToolSuite4
+Icon=/opt/sts-4.13.0.RELEASE/icon.xpm
 StartupNotify=true
 Terminal=false
 Type=Application
@@ -66,15 +66,15 @@ source /etc/environment
 echo $JAVA_HOME
 
 ### mostra a versao dos programas instalados
-echo "Java:"                >> Documentos/versoes.txt 
-java --version              >> Documentos/versoes.txt 
+echo "Java:"               >> Documentos/versoes.txt 
+java --version             >> Documentos/versoes.txt 
 echo "Javac:"              >> Documentos/versoes.txt 
 javac --version            >> Documentos/versoes.txt 
-echo "Pyhon:"           >> Documentos/versoes.txt 
-python3 --version       >> Documentos/versoes.txt 
-echo "PIP:"                 >> Documentos/versoes.txt 
-pip3 --version              >> Documentos/versoes.txt 
-echo "Node:"                >> Documentos/versoes.txt 
-node --version              >> Documentos/versoes.txt 
-echo "NPM:"               >> Documentos/versoes.txt 
-npm --version               >> Documentos/versoes.txt 
+echo "Pyhon:"              >> Documentos/versoes.txt 
+python3 --version          >> Documentos/versoes.txt 
+echo "PIP:"                >> Documentos/versoes.txt 
+pip3 --version             >> Documentos/versoes.txt 
+echo "Node:"               >> Documentos/versoes.txt 
+node --version             >> Documentos/versoes.txt 
+echo "NPM:"                >> Documentos/versoes.txt 
+npm --version              >> Documentos/versoes.txt 
