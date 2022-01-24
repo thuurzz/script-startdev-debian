@@ -21,7 +21,7 @@ sudo apt install code -y
 ### ecplipse
 sudo snap install eclipse --classic
 
-### STS
+### spring tool suite
 wget https://download.springsource.com/release/STS4/4.13.0.RELEASE/dist/e4.22/spring-tool-suite-4-4.13.0.RELEASE-e4.22.0-linux.gtk.x86_64.tar.gz
 sudo mv spring-tool-suite-4-4.13.0.RELEASE-e4.22.0-linux.gtk.x86_64.tar.gz /opt/
 cd /opt/
@@ -41,6 +41,9 @@ StartupNotify=true
 Terminal=false
 Type=Application
 Categories=Development;IDE;Java;
+
+### intelij-idea-community
+sudo snap install intellij-idea-community --classic
 
 ## LINGUAGENS DE PROGRAMACAO E BANCO DE DADOS
 cd
