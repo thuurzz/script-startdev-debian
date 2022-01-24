@@ -1,6 +1,6 @@
 ## Script de pós instalação para desenvolvimento distros baseadas em Debian 
 
-Script pode ser rodado ou seguir o passo a passo para instação
+script pode ser rodado ou seguir o passo a passo para instalação
 
 lINGUAGENS:
 - node
