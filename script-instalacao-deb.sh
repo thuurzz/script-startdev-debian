@@ -1,13 +1,17 @@
 #!/bin/bash
 # script de instalacao de programas .deb
 
-## atualiza pacotes
+## ATUALIZA PACOTES
 sudo apt update
 
-#instala snap store
+# INSTALA SNAP STORE
 sudo apt install snapd -y
 
-## editores de codigo
+# INSTALA GITHUB
+sudo apt install github
+
+
+## EDITORES DE CODIGO
 ### vs-code
 sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add – -y
@@ -38,7 +42,7 @@ Terminal=false
 Type=Application
 Categories=Development;IDE;Java;
 
-## linguagens de programacao
+## LINGUAGENS DE PROGRAMACAO E BANCO DE DADOS
 cd
 
 ### python
@@ -65,6 +69,13 @@ JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 source /etc/environment
 echo $JAVA_HOME
 
+### postgres
+sudo apt install postgresql postgresql-contrib -y
+
+## mysql
+sudo apt install mysql-server -y
+
+
 ### mostra a versao dos programas instalados
 echo "Java:"               >> Documentos/versoes.txt 
 java --version             >> Documentos/versoes.txt 
@@ -78,3 +89,7 @@ echo "Node:"               >> Documentos/versoes.txt
 node --version             >> Documentos/versoes.txt 
 echo "NPM:"                >> Documentos/versoes.txt 
 npm --version              >> Documentos/versoes.txt 
+echo "Postgres:"           >> Documentos/versoes.txt 
+psql --version             >> Documentos/versoes.txt 
+echo "Mysql:"              >> Documentos/versoes.txt 
+mysql --version            >> Documentos/versoes.txt 
