@@ -1,0 +1,32 @@
+Script para instalação no Windows:
+
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+choco install steam
+
+choco install spotify
+
+choco install telegram
+
+choco install whatsapp
+
+choco install discord
+
+choco install chrome-remote-desktop-chrome
+
+choco install git
+
+choco install python3
+
+choco install vscode
+
+choco install javaruntime
+
+choco install openjdk11
+
+choco install eclipse-java-oxygen
+
+choco install intellijidea-community
+
+choco install postman
