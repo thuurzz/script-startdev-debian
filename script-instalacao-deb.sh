@@ -8,7 +8,7 @@ sudo apt update
 sudo apt install snapd -y
 
 # INSTALA GITHUB
-sudo apt install github
+sudo apt install git
 
 
 ## EDITORES DE CODIGO
